@@ -24,5 +24,4 @@ Density is how much data in the database will be stored in correlation to the to
 Change history
 --------------
 
-* **Version 1.0.0.1 (2017-03-20)** : Switched to .Net to 4.6.2, Refactored code.
 * **Version 1.0.0.0 (2017-03-20)** : 1.0 release.
