@@ -2,7 +2,7 @@ URANG-Unique Random Number Generator
 ====================================
 
 URANG-Unique Random Number Generator is an executable to generate unique numbers.
-The executable was written and tested in .Net 4.6.2.
+The executable was written and tested in .Net 4.7.
 
 [![Build status](https://ci.appveyor.com/api/projects/status/8w5fj9cm9mvbsouq?svg=true)](https://ci.appveyor.com/project/SeppPenner/urang-unique-random-number-generator)
 

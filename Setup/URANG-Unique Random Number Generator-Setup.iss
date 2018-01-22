@@ -6,6 +6,7 @@
 #define MyAppPublisher "Hämmer Electronics"
 #define MyAppURL "www.softwareload24.de.tl"
 #define MyAppExeName "URANG-Unique Random Number Generator.exe"
+#define MyPath "F:\TODO\C# und VB\URANG-Unique Random Number Generator"
 
 [Setup]
 ; NOTE: The value of AppId uniquely identifies this application.
@@ -24,10 +25,10 @@ AppSupportURL={#MyAppURL}
 AppUpdatesURL={#MyAppURL}
 DefaultDirName={pf}\{#MyAppName}
 DefaultGroupName={#MyAppName}
-LicenseFile=C:\Users\tim\Desktop\URANG-Unique Random Number Generator\URANG-Unique Random Number Generator\bin\Debug\License.txt
-OutputDir=C:\Users\tim\Desktop\URANG-Unique Random Number Generator\Setup
+LicenseFile={#MyPath}\URANG-Unique Random Number Generator\bin\Debug\License.txt
+OutputDir={#MyPath}\Setup
 OutputBaseFilename=URANG-Unique Random Number Generator-Setup
-SetupIconFile=C:\Users\tim\Desktop\URANG-Unique Random Number Generator\URANG-Unique Random Number Generator\URANG.ico
+SetupIconFile={#MyPath}\URANG-Unique Random Number Generator\URANG.ico
 Compression=lzma
 SolidCompression=yes
 
@@ -40,10 +41,10 @@ Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{
 Name: "quicklaunchicon"; Description: "{cm:CreateQuickLaunchIcon}"; GroupDescription: "{cm:AdditionalIcons}"; Flags: unchecked; OnlyBelowVersion: 0,6.1
 
 [Files]
-Source: "C:\Users\tim\Desktop\URANG-Unique Random Number Generator\URANG-Unique Random Number Generator\bin\Debug\URANG-Unique Random Number Generator.exe"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\tim\Desktop\URANG-Unique Random Number Generator\URANG-Unique Random Number Generator\bin\Debug\Config.xml"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\tim\Desktop\URANG-Unique Random Number Generator\URANG-Unique Random Number Generator\bin\Debug\URANG_DB.accdb"; DestDir: "{app}"; Flags: ignoreversion
-Source: "C:\Users\tim\Desktop\URANG-Unique Random Number Generator\URANG-Unique Random Number Generator\bin\Debug\License.txt"; DestDir: "{app}"; Flags: ignoreversion
+Source: "{#MyPath}\URANG-Unique Random Number Generator\bin\Debug\URANG-Unique Random Number Generator.exe"; DestDir: "{app}"; Flags: ignoreversion
+Source: "{#MyPath}\URANG-Unique Random Number Generator\bin\Debug\Config.xml"; DestDir: "{app}"; Flags: ignoreversion
+Source: "{#MyPath}\URANG-Unique Random Number Generator\bin\Debug\URANG_DB.accdb"; DestDir: "{app}"; Flags: ignoreversion
+Source: "{#MyPath}\URANG-Unique Random Number Generator\bin\Debug\License.txt"; DestDir: "{app}"; Flags: ignoreversion
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 
 [Icons]
