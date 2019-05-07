@@ -2,11 +2,11 @@
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
 
 #define MyAppName "URANG-Unique Random Number Generator"
-#define MyAppVersion "1.0.0.0"
+#define MyAppVersion "1.0.0.1"
 #define MyAppPublisher "Hämmer Electronics"
 #define MyAppURL "www.softwareload24.de.tl"
 #define MyAppExeName "URANG-Unique Random Number Generator.exe"
-#define MyPath "F:\TODO\C# und VB\URANG-Unique Random Number Generator"
+#define MyPath "C:\Users\tim\Desktop\Updaten_Snyk\URANG-Unique Random Number Generator"
 
 [Setup]
 ; NOTE: The value of AppId uniquely identifies this application.
