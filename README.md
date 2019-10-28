@@ -29,5 +29,6 @@ Density is how much data in the database will be stored in correlation to the to
 Change history
 --------------
 
+* **Version 1.0.1.0 (2019-10-28)** : Updated nuget packages, added GitVersionTask.
 * **Version 1.0.0.1 (2019-05-07)** : Updated .Net version to 4.8.
 * **Version 1.0.0.0 (2017-03-20)** : 1.0 release.
