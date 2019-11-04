@@ -8,7 +8,7 @@ The executable was written and tested in .Net 4.8.
 [![GitHub issues](https://img.shields.io/github/issues/SeppPenner/URANG-Unique-Random-Number-Generator.svg)](https://github.com/SeppPenner/URANG-Unique-Random-Number-Generator/issues)
 [![GitHub forks](https://img.shields.io/github/forks/SeppPenner/URANG-Unique-Random-Number-Generator.svg)](https://github.com/SeppPenner/URANG-Unique-Random-Number-Generator/network)
 [![GitHub stars](https://img.shields.io/github/stars/SeppPenner/URANG-Unique-Random-Number-Generator.svg)](https://github.com/SeppPenner/URANG-Unique-Random-Number-Generator/stargazers)
-[![GitHub license](https://img.shields.io/badge/license-AGPL-blue.svg)](https://raw.githubusercontent.com/SeppPenner/URANG-Unique-Random-Number-Generator/master/License.txt)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://raw.githubusercontent.com/SeppPenner/URANG-Unique-Random-Number-Generator/master/License.txt)
 [![Known Vulnerabilities](https://snyk.io/test/github/SeppPenner/URANG-Unique-Random-Number-Generator/badge.svg)](https://snyk.io/test/github/SeppPenner/URANG-Unique-Random-Number-Generator)
 
 ## Screenshot from the executable:
