@@ -2,7 +2,7 @@ URANG-Unique Random Number Generator
 ====================================
 
 URANG-Unique Random Number Generator is an executable to generate unique numbers.
-The executable was written and tested in .Net 4.8.
+The executable was written and tested in .Net 5.0.
 
 [![Build status](https://ci.appveyor.com/api/projects/status/8w5fj9cm9mvbsouq?svg=true)](https://ci.appveyor.com/project/SeppPenner/urang-unique-random-number-generator)
 [![GitHub issues](https://img.shields.io/github/issues/SeppPenner/URANG-Unique-Random-Number-Generator.svg)](https://github.com/SeppPenner/URANG-Unique-Random-Number-Generator/issues)
@@ -26,9 +26,10 @@ Density is how much data in the database will be stored in correlation to the to
 </Config>
 ```
 
+## Hint
+The mechanism behind e.g. [UUIDs](https://en.wikipedia.org/wiki/Universally_unique_identifier) is a lot better and more efficient, of course.
+
 Change history
 --------------
 
-* **Version 1.0.1.0 (2019-10-28)** : Updated nuget packages, added GitVersionTask.
-* **Version 1.0.0.1 (2019-05-07)** : Updated .Net version to 4.8.
-* **Version 1.0.0.0 (2017-03-20)** : 1.0 release.
+See the [Changelog](https://github.com/SeppPenner/URANG-Unique-Random-Number-Generator/blob/master/Changelog.md).

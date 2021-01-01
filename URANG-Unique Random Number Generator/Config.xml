@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<Config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-	<Chars>abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789-_#$?!"%()[]{}+*,./:;@=^`|~²³§</Chars>
-	<!-- Don't use ' or \ or < or > and else only use the following chars: http://www.utf8-zeichentabelle.de/-->
-	<Density>0.55</Density>
-</Config>
