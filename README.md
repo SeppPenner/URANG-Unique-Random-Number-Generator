@@ -11,10 +11,10 @@ The executable was written and tested in .Net 5.0.
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://raw.githubusercontent.com/SeppPenner/URANG-Unique-Random-Number-Generator/master/License.txt)
 [![Known Vulnerabilities](https://snyk.io/test/github/SeppPenner/URANG-Unique-Random-Number-Generator/badge.svg)](https://snyk.io/test/github/SeppPenner/URANG-Unique-Random-Number-Generator)
 
-## Screenshot from the executable:
+## Screenshot from the executable
 ![Screenshot from the executable](https://github.com/SeppPenner/URANG-Unique-Random-Number-Generator/blob/master/Screenshot.JPG "Screenshot from the executable")
 
-## How does the config need to look like:
+## How does the config need to look like
 Chars is the set of chars used in the generator. See http://www.utf8-zeichentabelle.de/ for all possible chars.
 Density is how much data in the database will be stored in correlation to the total possible values.
 ```xml

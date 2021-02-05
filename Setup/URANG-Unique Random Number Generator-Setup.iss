@@ -40,12 +40,7 @@ Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{
 Name: "quicklaunchicon"; Description: "{cm:CreateQuickLaunchIcon}"; GroupDescription: "{cm:AdditionalIcons}"; Flags: unchecked; OnlyBelowVersion: 0,6.1
 
 [Files]
-Source: "..\src\URANG-Unique Random Number Generator\bin\Release\net5.0-windows\URANG-Unique Random Number Generator.exe"; DestDir: "{app}"; Flags: ignoreversion
-Source: "..\src\URANG-Unique Random Number Generator\bin\Release\net5.0-windows\URANG-Unique Random Number Generator.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "..\src\URANG-Unique Random Number Generator\bin\Release\net5.0-windows\Config.xml"; DestDir: "{app}"; Flags: ignoreversion
-Source: "..\src\URANG-Unique Random Number Generator\bin\Release\net5.0-windows\URANG_DB.accdb"; DestDir: "{app}"; Flags: ignoreversion
-Source: "..\src\URANG-Unique Random Number Generator\bin\Release\net5.0-windows\License.txt"; DestDir: "{app}"; Flags: ignoreversion
-Source: "..\src\URANG-Unique Random Number Generator\bin\Release\net5.0-windows\System.Data.OleDb.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "..\src\URANG-Unique Random Number Generator\bin\publish\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 
 [Icons]
