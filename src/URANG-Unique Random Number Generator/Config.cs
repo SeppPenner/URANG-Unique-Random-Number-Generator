@@ -17,7 +17,7 @@ namespace URANG_Unique_Random_Number_Generator
         /// <summary>
         /// Gets or sets the chars.
         /// </summary>
-        public string Chars { get; set; }
+        public string Chars { get; set; } = string.Empty;
 
         /// <summary>
         /// Gets or sets the density.

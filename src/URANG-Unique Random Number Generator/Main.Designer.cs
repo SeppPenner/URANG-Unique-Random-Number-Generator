@@ -121,7 +121,6 @@
         private System.Windows.Forms.Label label_Generate;
         private System.Windows.Forms.NumericUpDown numericUpDownLength;
         private System.Windows.Forms.Label label_Length;
-        private System.ComponentModel.BackgroundWorker backgroundWorker_Generate;
     }
 }
 

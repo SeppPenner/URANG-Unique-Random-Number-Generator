@@ -31,7 +31,7 @@ namespace URANG_Unique_Random_Number_Generator
         /// <summary>
         /// The configuration.
         /// </summary>
-        private readonly Config config;
+        private readonly Config config = new();
 
         /// <summary>
         /// The connection.
@@ -41,7 +41,7 @@ namespace URANG_Unique_Random_Number_Generator
         /// <summary>
         /// The random generator.
         /// </summary>
-        private readonly Random random;
+        private readonly Random random = new();
 
         /// <summary>
         /// The counter.
@@ -51,7 +51,7 @@ namespace URANG_Unique_Random_Number_Generator
         /// <summary>
         /// The reader.
         /// </summary>
-        private OleDbDataReader reader;
+        private OleDbDataReader? reader;
 
         /// <summary>
         /// A value indicating whether the process was successful or not.
@@ -76,7 +76,7 @@ namespace URANG_Unique_Random_Number_Generator
                 this.random = new Random();
                 this.successful = false;
                 configFile = Path.Combine(Directory.GetParent(location)?.FullName ?? string.Empty, "Config.xml");
-                this.config = InitConfiguration(configFile);
+                this.config = InitConfiguration(configFile) ?? new();
                 this.InitializeComponent();
             }
             catch (Exception ex)
@@ -90,7 +90,7 @@ namespace URANG_Unique_Random_Number_Generator
         /// </summary>
         /// <param name="fileName">The file name.</param>
         /// <returns>The <see cref="Config"/>.</returns>
-        private static Config InitConfiguration(string fileName)
+        private static Config? InitConfiguration(string fileName)
         {
             try
             {
@@ -110,10 +110,10 @@ namespace URANG_Unique_Random_Number_Generator
         /// <typeparam name="T">The type parameter.</typeparam>
         /// <param name="xDocument">The x document.</param>
         /// <returns>A new object of type <see cref="T"/>.</returns>
-        private static T CreateObjectsFromString<T>(XDocument xDocument)
+        private static T? CreateObjectsFromString<T>(XDocument xDocument)
         {
             var xmlSerializer = new XmlSerializer(typeof(T));
-            return (T)xmlSerializer.Deserialize(new StringReader(xDocument.ToString()));
+            return (T?)xmlSerializer.Deserialize(new StringReader(xDocument.ToString()));
         }
 
         /// <summary>
